@@ -1,0 +1,69 @@
+-- What is GitHub?
+
+GitHub is a website and cloud-based service that assists developers in storing and managing code, as well as tracking and controlling changes to their code.
+
+What Is Version Control?
+The method of recording and controlling changes to software code is known as version control, often known as source control. 
+Version control systems (VCS) are software tools that assist software development teams in managing changes to source code over time.
+
+How to use Github?
+Github can be used via creating and maintaining a repository, beginning and managing a new branch, making changes to a file and committing them to GitHub, 
+and opening and merging a pull request.
+
+-- Uses of GitHub
+
+
+-- Install Git setup in your machine.
+-- Create an account in remote git and try to push a simple file(readme file or any code)
+
+
+Git init
+git add. (add all files)
+git status (If you Check git status, will see all the files)
+git commit -m 'your message' (Provide any reasonable name then see how many files added)
+
+Copy your remote repository's URL from GitHub
+git remote add origin 'your_url_name'
+git push -u origin master
+
+then check your repository, will see the changes after completing the push commends.
+
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
